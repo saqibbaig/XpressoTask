@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+form{
+	max-width: 450px;
+	margin:0 auto 50px;
+}
+span{
+	display:block;
+}
+label{
+	display: block;
+	margin-bottom: 5px;
+	+box-sizing(border-box);
+	padding-left: 15px;
+
+
+}
+&:focus{
+	outline: none;
+	border-color: c1a300;
+}
+input{
+border: 2px solid #a69100;
+width:100%;
+padding: 10px;
+}
+
+.buttonSection{
+	margin:0 auto 50px;
+	max-width: 450px;
+	text-align: right;
+
+}
+
+ body {
+    background-color: #fff !important;
+    	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+	padding: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+
+  }
+
+.tm{
+	margin: 0px;
+	border: 0px;
+
+
+}
+.mainborder{
+	width: 100%;
+	margin: 0px auto;
+	border: 0px ;
+	background: white;
+
+}
+
+.topmenu{
+	width: 100%;
+	margin: 0px auto;
+	border: 0px ;
+	background: gray;
+	color: white;
+
+}
+.leftmenu{
+	width: 15%;
+	margin: 0px auto;
+	border: 0px ;
+	float: left;
+	background:gray;
+	color: white;
+	min-height: 94.5vh;
+	text-align: center;
+}
+
+.contentarea{
+	width: 70%;
+	margin: 0px auto;
+	border: 0px solid black;
+	float: left;
+	background: white;
+	min-height: 94.5vh;
+	
+
+}
+.rightmenu{
+	width: 15%;
+	margin: 0px auto;
+	float: left;
+	background: gray;
+	color: white;
+	min-height: 94.5vh;
+}
+.footerdiv{
+	width: 100%;
+	margin: 0px auto;
+	border: 0px;
+	background: black;
+	color: white;
+	float: left;
+	text-align: center;
+
+}
